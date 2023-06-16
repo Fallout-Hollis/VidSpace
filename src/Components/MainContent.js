@@ -26,6 +26,7 @@ const MainContent = () => {
             {/* Add more video details */}
           </div>
         </div>
+
         {/* Add more videos */}
       </div>
     </div>
