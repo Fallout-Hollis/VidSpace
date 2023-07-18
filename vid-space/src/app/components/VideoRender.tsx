@@ -14,6 +14,41 @@ const videos = [
     title: 'Awesome Video 2',
     thumbnailUrl: MainImg,
   },
+  {
+    id: 1,
+    title: 'Cool Video 1',
+    thumbnailUrl: MainImg,
+  },
+  {
+    id: 2,
+    title: 'Awesome Video 2',
+    thumbnailUrl: MainImg,
+  },
+  {
+    id: 1,
+    title: 'Cool Video 1',
+    thumbnailUrl: MainImg,
+  },
+  {
+    id: 2,
+    title: 'Awesome Video 2',
+    thumbnailUrl: MainImg,
+  },
+  {
+    id: 1,
+    title: 'Cool Video 1',
+    thumbnailUrl: MainImg,
+  },
+  {
+    id: 2,
+    title: 'Awesome Video 2',
+    thumbnailUrl: MainImg,
+  },
+  {
+    id: 1,
+    title: 'Cool Video 1',
+    thumbnailUrl: MainImg,
+  },
 ];
 
 const VideoRender: React.FC = () => {

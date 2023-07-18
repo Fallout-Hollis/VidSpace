@@ -10,14 +10,13 @@ export default function Home() {
           className="px-4 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring focus:border-blue-300"
           placeholder="Search..."
         />
-        {/* Add your search button or other search-related elements here */}
+        <button className="px-4 py-2 bg-blue-600 text-white rounded-lg">Login</button>
       </div>
 
       <div className="flex flex-grow">
         {/* Collapsible bar to the left */}
         <div className="bg-gray-200 p-4 w-1/6">
-          {/* Add your collapsible content here */}
-          {/* Example: <p>Collapsible Content</p> */}
+          <button className="px-4 py-2 bg-blue-600 text-white rounded-lg">Account Settings & Info</button>
         </div>
 
         {/* Centered VideoRender */}
