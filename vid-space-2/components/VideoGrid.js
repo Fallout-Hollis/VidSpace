@@ -1,16 +1,72 @@
 import React from "react";
 
-const videoUrls = [
-  "https://www.youtube.com/watch?v=5_V-K1qpRfA",
-  "https://www.youtube.com/watch?v=IH2S19JHsjk",
-  "https://www.youtube.com/watch?v=hw4CH-Jg6lY",
-  // Add more video URLs as needed
+const galleryData = [
+  {
+    title: "Exploring the topic of space earthquakes",
+    url: "Images/thumbnail-5.png",
+    likeCount: 10,
+    viewCount: 1000,
+  },
+  {
+    title: "Why people love science fiction",
+    url: "Images/thumbnail-1.png",
+    likeCount: 15,
+    viewCount: 1500,
+  },
+  {
+    title: "How to stay motivated",
+    url: "Images/thumbnail-2.png",
+    likeCount: 5,
+    viewCount: 500,
+  },
+  {
+    title: "Why cats are cute",
+    url: "Images/thumbnail-3.png",
+    likeCount: 20,
+    viewCount: 2000,
+  },
+  {
+    title: "Farming Pumpkins",
+    url: "Images/thumbnail-4.png",
+    likeCount: 8,
+    viewCount: 800,
+  },
+  {
+    title: "Why dystopias captivate audiences ",
+    url: "Images/thumbnail-6.png",
+    likeCount: 12,
+    viewCount: 1800,
+  },
+  {
+    title: "Medieval practices",
+    url: "Images/thumbnail-7.png",
+    likeCount: 8,
+    viewCount: 800,
+  },
+  {
+    title: "Could power armor work?",
+    url: "Images/thumbnail-8.png",
+    likeCount: 12,
+    viewCount: 1800,
+  },
 ];
 
 const VideoGrid = () => {
   return (
-    <div className="grid grid-cols-4 gap-4">
-      <h1>Welcome to VidSpace!</h1>
+    <div className="flex flex-wrap justify-center ">
+      {galleryData.map((item, index) => (
+        <div
+          key={index}
+          className="m-4 p-4 border border-orange-200 rounded-lg text-center w-80 transition-transform transform hover:scale-110 hover:shadow-lg"
+        >
+          <img src={item.url} alt={item.title} />
+          <h2 className="mt-2 text-3xl text-orange-600">{item.title}</h2>
+          <div className="flex justify-between text-orange-800 mt-2 text-xl">
+            <p>Likes: {item.likeCount}</p>
+            <p>Views: {item.viewCount}</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
