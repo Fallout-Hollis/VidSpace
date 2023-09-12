@@ -57,14 +57,16 @@ const VideoGrid = () => {
       {galleryData.map((item, index) => (
         <div
           key={index}
-          className="m-4 p-4 border border-orange-200 rounded-lg text-center w-80 transition-transform transform hover:scale-110 hover:shadow-lg"
+          className="m-4 p-4 border border-orange-200 rounded-lg text-center md:w-80 transition-transform transform hover:scale-110 hover:shadow-lg"
         >
-          <img src={item.url} alt={item.title} />
-          <h2 className="mt-2 text-3xl text-orange-600">{item.title}</h2>
-          <div className="flex justify-between text-orange-800 mt-2 text-xl">
-            <p>Likes: {item.likeCount}</p>
-            <p>Views: {item.viewCount}</p>
-          </div>
+          <a href="VideoPage">
+            <img src={item.url} alt={item.title} />
+            <h2 className="mt-2 text-3xl text-orange-600">{item.title}</h2>
+            <div className="flex justify-between text-orange-800 mt-2 text-xl">
+              <p className="mx-2">Likes: {item.likeCount}</p>
+              <p>Views: {item.viewCount}</p>
+            </div>
+          </a>
         </div>
       ))}
     </div>

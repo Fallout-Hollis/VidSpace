@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 
-export default function About() {
+export default function VideoPage() {
   return (
     <div>
       <Head>

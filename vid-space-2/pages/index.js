@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Navbar from "../components/NavBar";
-import IntroSection from "../components/IntroSection";
 import VideoGrid from "../components/VideoGrid";
 import DashBoard from "../components/DashBoard";
 import Footer from "../components/Footer";
@@ -16,8 +15,7 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <IntroSection />
-        <div className="flex justify-between">
+        <div className="md:flex md:justify-between">
           <DashBoard />
           <VideoGrid />
         </div>
