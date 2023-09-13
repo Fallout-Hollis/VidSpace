@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="md:mx-40 bg-gray-800">
-      <nav className=" border-gray-200 bg-gray-800">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <div className="md:mx-40 md:pt-6">
+      <nav className=" bg-gray-800 rounded-lg ">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
           <a href="#" className="flex items-center ">
             <img
               src="VidSpace_Logo.PNG"
@@ -20,7 +20,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-white bg-orange-700 rounded md:bg-transparent md:text-orange-700 md:p-0 dark:text-white md:dark:text-orange-500"
+                  className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0  hover:text-orange-500"
                   aria-current="page"
                 >
                   Home
@@ -29,7 +29,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="About"
-                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0  hover:text-orange-500"
                 >
                   About
                 </a>
@@ -37,7 +37,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="Shop"
-                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0  hover:text-orange-500"
                 >
                   Shop
                 </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="Contact"
-                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0  hover:text-orange-500"
                 >
                   Contact
                 </a>
