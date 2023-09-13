@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>VidSpace</title>
         <meta name="A website for sharing videos" content="VidSpace" />
-        <link rel="icon" type="image/png" href="/Images/VidSpace_Logo.PNG" />
+        <link rel="icon" type="image/png" href="/Images/VidSpace_Logo.png" />
       </Head>
 
       <main className="pb-4">
