@@ -55,22 +55,32 @@ const galleryData = [
 
 const VideoGrid = () => {
   return (
-    <div className="flex flex-wrap justify-center bg-gray-800 rounded-lg m-6 ">
-      {galleryData.map((item, index) => (
-        <div
-          key={index}
-          className="m-4 p-4 border border-orange-200 rounded-lg text-center md:w-80 transition-transform transform hover:scale-110 hover:shadow-lg"
-        >
-          <Link href="VideoPage">
-            <Image src={item.url} width={800} height={800} alt={item.title} />
-            <h2 className="mt-2 text-3xl text-orange-600">{item.title}</h2>
-            <div className="flex justify-between text-orange-800 mt-2 text-xl">
-              <p className="mx-2">Likes: {item.likeCount}</p>
-              <p>Views: {item.viewCount}</p>
-            </div>
-          </Link>
-        </div>
-      ))}
+    <div className="bg-gray-800 rounded-lg m-6">
+      <div className="self-center items-center m-auto pt-4 w-1/3">
+        <button className="bg-yellow-400 rounded-lg p-2 w-1/3 m-1 text-2xl m-auto hover:bg-orange-500">
+          Videos
+        </button>
+        <button className="bg-yellow-400 rounded-lg p-2 w-1/3 text-2xl m-auto hover:bg-orange-500">
+          Articles
+        </button>
+      </div>
+      <div className="flex flex-wrap justify-center bg-gray-800 rounded-lg m-6 ">
+        {galleryData.map((item, index) => (
+          <div
+            key={index}
+            className="m-4 p-4 border border-orange-200 rounded-lg text-center md:w-80 transition-transform transform hover:scale-110 hover:shadow-lg"
+          >
+            <Link href="VideoPage">
+              <Image src={item.url} width={800} height={800} alt={item.title} />
+              <h2 className="mt-2 text-3xl text-orange-600">{item.title}</h2>
+              <div className="flex justify-between text-orange-800 mt-2 text-xl">
+                <p className="mx-2">Likes: {item.likeCount}</p>
+                <p>Views: {item.viewCount}</p>
+              </div>
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
