@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 
@@ -20,8 +21,10 @@ export default function Shop() {
           </h1>
           <div className="m-4 p-4 border border-orange-600 rounded-lg text-center md:w-1/2 m-auto mt-6">
             <Link href="/">
-              <img
-                src="Images/Store.png"
+              <Image
+                src="/Images/Store.png"
+                width={600}
+                height={600}
                 alt="Shop image"
                 className="self-center m-auto"
               />

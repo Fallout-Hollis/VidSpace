@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -7,8 +8,10 @@ const Navbar = () => {
       <nav className=" bg-gray-800 rounded-lg ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
           <Link href="#" className="flex items-center ">
-            <img
-              src="VidSpace_Logo.PNG"
+            <Image
+              src="/VidSpace_Logo.PNG"
+              width={80}
+              height={90}
               className="h-16 mr-3"
               alt="VidSpace Logo"
             />

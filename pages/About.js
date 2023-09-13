@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -21,15 +22,19 @@ export default function About() {
               all around the world can upload, share, and discover amazing video
               content.
             </p>
-            <img
-              src="Images/amzing-content.png"
+            <Image
+              src="/Images/amzing-content.png"
+              width={600}
+              height={600}
               alt="Amazing Video Thumbnail"
               className="mt-2 md:mt-0 md:w-1/2 rounded-lg"
             />
           </div>
           <div className="md:flex md:justify-between text-white m-auto md:w-1/2 bg-gray-800 rounded-lg mb-12">
-            <img
-              src="Images/community.png"
+            <Image
+              src="/Images/community.png"
+              width={600}
+              height={600}
               alt="Amazing Video Thumbnail"
               className="mt-2 md:mt-0 md:w-1/2 rounded-lg"
             />
@@ -41,12 +46,14 @@ export default function About() {
 
           <div className="md:flex md:justify-between text-white m-auto md:w-1/2 bg-gray-800 rounded-lg mb-12">
             <p className="text-2xl p-2 md:text-3xl md:w-1/2 m-auto">
-              Whether you're a content creator or a viewer, VidSpace has
+              Whether you&apos;re a content creator or a viewer, VidSpace has
               something for everyone. Join our community today and be a part of
               the video revolution!
             </p>
-            <img
-              src="Images/something-for-everyone.png"
+            <Image
+              src="/Images/something-for-everyone.png"
+              width={600}
+              height={600}
               alt="Amazing Video Thumbnail"
               className="mt-2 md:mt-0 md:w-1/2 rounded-lg"
             />
