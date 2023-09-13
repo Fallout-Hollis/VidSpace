@@ -9,7 +9,7 @@ export default function About() {
       <Head>
         <title>VidSpace-About-Us</title>
         <meta name="A website for sharing videos" content="VidSpace" />
-        <link rel="icon" type="image/png" href="VidSpace_Logo.PNG" />
+        <link rel="icon" type="image/png" href="VidSpace_Logo.png" />
       </Head>
 
       <main>

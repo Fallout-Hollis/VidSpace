@@ -8,7 +8,7 @@ export default function Contact() {
       <Head>
         <title>Contact VidSpace</title>
         <meta name="A website for sharing videos" content="VidSpace" />
-        <link rel="icon" type="image/png" href="VidSpace_Logo.PNG" />
+        <link rel="icon" type="image/png" href="VidSpace_Logo.png" />
       </Head>
 
       <main>
