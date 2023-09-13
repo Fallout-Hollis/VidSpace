@@ -53,7 +53,7 @@ const galleryData = [
 
 const VideoGrid = () => {
   return (
-    <div className="flex flex-wrap justify-center ">
+    <div className="flex flex-wrap justify-center bg-gray-800 rounded-lg m-6 ">
       {galleryData.map((item, index) => (
         <div
           key={index}
