@@ -16,7 +16,7 @@ export default function About() {
         <div className="bg-black p-8 rounded-lg shadow-md text-white text-center">
           <h1 className="text-4xl font-semibold mb-4 ">What is VidSpace?</h1>
           <div className="md:flex md:justify-between text-white m-auto md:w-1/2 bg-gray-800 rounded-lg mb-12 mt-12">
-            <p className="text-2xl md:text-3xl md:w-1/2 m-auto">
+            <p className="text-2xl p-2 md:text-3xl md:w-1/2 m-auto">
               VidSpace is a leading video sharing platform where creators from
               all around the world can upload, share, and discover amazing video
               content.
@@ -28,19 +28,19 @@ export default function About() {
             />
           </div>
           <div className="md:flex md:justify-between text-white m-auto md:w-1/2 bg-gray-800 rounded-lg mb-12">
-            <p className="text-2xl md:text-3xl md:w-1/2 m-auto">
-              Our mission is to connect people through video, providing a
-              platform for creative expression, entertainment, and education.
-            </p>
             <img
               src="Images/community.png"
               alt="Amazing Video Thumbnail"
               className="mt-2 md:mt-0 md:w-1/2 rounded-lg"
             />
+            <p className="text-2xl p-2 md:text-3xl md:w-1/2 m-auto">
+              Our mission is to connect people through video, providing a
+              platform for creative expression, entertainment, and education.
+            </p>
           </div>
 
           <div className="md:flex md:justify-between text-white m-auto md:w-1/2 bg-gray-800 rounded-lg mb-12">
-            <p className="text-2xl md:text-3xl md:w-1/2 m-auto">
+            <p className="text-2xl p-2 md:text-3xl md:w-1/2 m-auto">
               Whether you're a content creator or a viewer, VidSpace has
               something for everyone. Join our community today and be a part of
               the video revolution!
