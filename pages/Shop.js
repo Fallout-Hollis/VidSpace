@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 
@@ -18,7 +19,7 @@ export default function Shop() {
             Want to get some VidSpace Merch?
           </h1>
           <div className="m-4 p-4 border border-orange-600 rounded-lg text-center md:w-1/2 m-auto mt-6">
-            <a href="/">
+            <Link href="/">
               <img
                 src="Images/Store.png"
                 alt="Shop image"
@@ -27,7 +28,7 @@ export default function Shop() {
               <h2 className="mt-2 text-6xl text-black bg-orange-400 rounded-xl pb-4">
                 Click here to go to our merch website!
               </h2>
-            </a>
+            </Link>
           </div>
         </div>
       </main>
