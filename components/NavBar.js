@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
           <Link href="#" className="flex items-center ">
             <Image
-              src="/VidSpace_Logo.PNG"
+              src="VidSpace_Logo.PNG"
               width={80}
               height={90}
               className="h-16 mr-3"
