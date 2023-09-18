@@ -76,7 +76,7 @@ export default function ArticlePage() {
               Journeying to the Stars
             </h1>
             <p className="text-center text-orange-600 text-xl">
-              Humanity's dreams of exploring the stars are becoming a reality.
+              Humanitys dreams of exploring the stars are becoming a reality.
               Space agencies and private companies are planning missions to
               distant stars and exoplanets, fueled by breakthroughs in
               propulsion technology and interstellar travel concepts.
