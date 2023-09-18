@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="md:mx-40 md:pt-6">
       <nav className=" bg-gray-800 rounded-lg ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
-          <Link href="#" className="flex items-center ">
+          <Link href="/" className="flex items-center ">
             <Image
               src="/VidSpace_Logo.png"
               priority={true}
