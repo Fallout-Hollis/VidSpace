@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" type="image/png" href="VidSpace_Logo.png" />
       </Head>
 
-      <main className="pb-4">
+      <main className="pb-4 ">
         <Navbar />
         <VideoGrid />
       </main>

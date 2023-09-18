@@ -56,11 +56,11 @@ const galleryData = [
 const VideoGrid = () => {
   return (
     <div className="bg-gray-800 rounded-lg m-6">
-      <div className="self-center items-center m-auto pt-4 w-1/3">
-        <button className="bg-yellow-400 rounded-lg p-2 w-1/3 m-1 text-2xl m-auto hover:bg-orange-500">
+      <div className="flex justify-center items-center gap-4 p-4 pb-0 text-xl">
+        <button className="bg-orange-500 hover:bg-orange-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
           Videos
         </button>
-        <button className="bg-yellow-400 rounded-lg p-2 w-1/3 text-2xl m-auto hover:bg-orange-500">
+        <button className="bg-red-500 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
           Articles
         </button>
       </div>

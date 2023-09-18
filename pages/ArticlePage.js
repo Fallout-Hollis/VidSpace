@@ -3,7 +3,7 @@ import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import VideoGrid from "../components/VideoGrid";
 
-export default function VideoPage() {
+export default function ArticlePage() {
   return (
     <div>
       <Head>
@@ -19,16 +19,10 @@ export default function VideoPage() {
             <h2 className="mt-2 pb-4 text-4xl text-center text-orange-600">
               Doggo
             </h2>
-            <video
-              className="self-center m-auto border-8 border-black"
-              width="1280"
-              height="720"
-              controls
-              controlsList="nodownload "
-            >
-              <source src="Videos/TestVid.mp4 " />
-              Your browser does not support video player.
-            </video>
+            <p>
+              This is eventually where a entire aticle will be it will be
+              formated and look good too!
+            </p>
           </div>
           <div className="bg-gray-800 rounded-xl pt-12 m-12 border-2 border-orange-600">
             <h1 className="mt-2 pb-4 text-5xl text-center text-orange-600">

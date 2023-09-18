@@ -10,9 +10,10 @@ const Navbar = () => {
           <Link href="#" className="flex items-center ">
             <Image
               src="/VidSpace_Logo.png"
+              priority={true}
               width={70}
               height={80}
-              className="h-16 mr-3"
+              className=" mr-3"
               alt="VidSpace Logo"
             />
             <span className="self-center text-2xl font-semibold  text-white">
@@ -48,10 +49,10 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="Contact"
+                  href="Login"
                   className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0  hover:text-orange-500"
                 >
-                  Contact
+                  Login
                 </Link>
               </li>
             </ul>
