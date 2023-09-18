@@ -37,7 +37,7 @@ export default function Login() {
             width={1000}
             height={1000}
             priority={true}
-            alt="Amazing Video Thumbnail"
+            alt="girl logging in image"
             className=" w-1/2 mt-4 md:mt-0  md:w-1/3 rounded-lg m-auto"
           />
           <div className=" w-1/2 max-w-md mx-auto self-center">

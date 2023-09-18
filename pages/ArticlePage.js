@@ -34,6 +34,7 @@ export default function ArticlePage() {
               width={800}
               height={800}
               className="md:w-1/4 p-4 m-auto "
+              alt="Space Image"
             />
 
             <h1 className="text-4xl text-center text-orange-600 my-8">
@@ -50,6 +51,7 @@ export default function ArticlePage() {
               width={800}
               height={800}
               className="md:w-1/4 p-4 m-auto"
+              alt="Space Image"
             />
 
             <h1 className="text-4xl text-center text-orange-600 my-8">
@@ -67,6 +69,7 @@ export default function ArticlePage() {
               width={800}
               height={800}
               className="md:w-1/4 p-4 m-auto"
+              alt="Space Image"
             />
 
             <h1 className="text-4xl text-center text-orange-600 my-8">
@@ -83,6 +86,7 @@ export default function ArticlePage() {
               width={800}
               height={800}
               className="md:w-1/4 p-4 m-auto"
+              alt="Space Image"
             />
 
             <h1 className="text-4xl text-center text-orange-600 my-8">
@@ -99,6 +103,7 @@ export default function ArticlePage() {
               width={800}
               height={800}
               className="md:w-1/4 p-4 m-auto"
+              alt="Space Image"
             />
           </div>
           <div className="bg-gray-800 rounded-xl pt-12 m-12 border-2 border-orange-600">
